@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Cloner le dépôt') {
       steps {
-        git 'https://github.com/Herilanto003/cours_ci_cd.git' // remplace par ton lien
+        git url:'https://github.com/Herilanto003/cours_ci_cd.git' // remplace par ton lien
       }
     }
 
